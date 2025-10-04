@@ -1,6 +1,5 @@
 import { Product } from '@/db'
 import Image from 'next/image'
-const res = await fetch("/api/products");
 
 
 const ProductComponent = ({ product }: { product: Product }) => {
